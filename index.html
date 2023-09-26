@@ -10,14 +10,38 @@
     <header>
         <a href="#highScorePage">View Highscores</a>
     </header>
+    <main>
     <div class="container">
         <div id="quizStartPage">
         <h1>Coding Quiz Challenge</h1>
         <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
-        <button id="startQuiz">Start Quiz</button>
+        <button id="startQuizButton">Start Quiz</button>
     </div>
     <div id="timer">Time remaining: </div>
-
+    <div id="quizQuestionsPage">
+        <h2>Question</h2>
+        <p class="quizQuestion"></p>
+        <button class="quizAnswer"></button>
+        <button class="quizAnswer"></button>
+        <button class="quizAnswer"></button>
+        <button class="quizAnswer"></button>
+    </div>
+    <div id="quizEndPage">
+        <h2>All done!</h2>
+        <p>Your final score is <span id="finalScore"></span>.</p>
+        <form>
+            <label for="initials">Enter initials:</label>
+            <input type="text" id="initials" name="initials">
+            <button id="submitScoreButton">Submit</button>
+        </form>
+        <div id="highScorePage">
+            <h2>Highscores</h2>
+            <ol id="highscoresList"></ol>
+            <button id="goBackButton">Go Back</button>
+            <button id="clearHighscoresButton">Clear Highscores</button>
+        </div>
 </div>
+</main>
+    <script src="./app.js"></script>
 </body>
 </html> 
