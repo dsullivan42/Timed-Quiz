@@ -36,13 +36,29 @@ header{
 
 }
 #timer{
+    font-weight:bold;
+    float:right;
     display:none;
+    position: relative;
+    width: 400px;
+    /* justify-content: space-between; */
+    /* align-items: center; */
 }
 #quizEndPage{
     display:none;
+    position: relative;
+    width: 1100px;
+    justify-content: space-between;
+    align-items: center;
+    text-align:center;
 }
 #highScorePage{
     display:none;
+    position: relative;
+    width: 1100px;
+    justify-content: space-between;
+    align-items: center;
+    text-align:center;
 }
 p{
     padding-top:40px;
