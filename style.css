@@ -28,6 +28,12 @@ header{
 }
 #quizQuestionsPage{
     display:none;
+    position: relative;
+    width: 1100px;
+    justify-content: space-between;
+    align-items: center;
+    text-align:center;
+
 }
 #timer{
     display:none;
@@ -55,4 +61,56 @@ h1{
     border: none;
     font-size: 20px;
     cursor: pointer;
+}
+#startQuizButton:hover{
+    background-color: #4d004d;
+}
+
+#quizQuestionsPage button{
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+#quizQuestionsPage button:hover{
+    background-color: #4d004d;
+}
+#quizEndPage button{
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+#quizEndPage button:hover{
+    background-color: #4d004d;
+}
+#highScorePage button{
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+#highScorePage button:hover{
+    background-color: #4d004d;
+}
+#highScorePage ol{
+    list-style-type: decimal;
+    padding-left: 0;
+}
+#highScorePage li{
+    padding: 10px;
+    font-size: 20px;
+    color: purple;
+}
+h2{
+    font-size: 40px;
 }

@@ -23,10 +23,11 @@
     <div id="quizQuestionsPage">
         <h2>Question</h2>
         <p class="quizQuestion"></p>
-        <button class="quizAnswer"></button>
-        <button class="quizAnswer"></button>
-        <button class="quizAnswer"></button>
-        <button class="quizAnswer"></button>
+        <button class="buttonA" onclick="checkAnswer('A')">A</button>
+        <button class="buttonB" onclick="checkAnswer('B')">B</button>
+        <button class="buttonC" onclick="checkAnswer('C')">C</button>
+        <button class="buttonD" onclick="checkAnswer('D')">D</button>
+    <div id="quizAnswersResult"></div>
     </div>
     <div id="quizEndPage">
         <h2>All done!</h2>
@@ -39,11 +40,11 @@
         <div id="highScorePage">
             <h2>Highscores</h2>
             <ol id="highscoresList"></ol>
-            <button id="goBackButton">Go Back</button>
+            <button id="playAgainButton">Play Again!</button>
             <button id="clearHighscoresButton">Clear Highscores</button>
         </div>
 </div>
+<script src="./app.js"></script>
 </main>
-    <script src="./app.js"></script>
 </body>
 </html> 
