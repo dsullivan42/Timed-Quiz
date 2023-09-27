@@ -3,32 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- name of webpage -->
     <title>Timed Coding Quiz</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header>
         <nav>
-        <a href="#highScorePage">View Highscores</a>
+            <!-- link at type of page, on the nav bar, to travel to highscore page -->
+        <a href="#highScoreButton">View Highscores</a>
     </nav>
     </header>
     <main>
     <div class="container">
+        <!-- starting page of the quiz, prior to the quiz starting -->
         <div id="quizStartPage">
         <h1>Coding Quiz Challenge</h1>
         <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
         <button id="startQuizButton">Start Quiz</button>
     </div>
+    <!-- container for the timer -->
     <div id="timer">Time remaining: </div>
+    <!-- page where questions will be displayed for the quiz -->
     <div id="quizQuestionsPage">
         <h2>Question</h2>
         <p class="quizQuestion"></p>
-        <button class="buttonA" onclick="checkAnswer('A')">A</button>
-        <button class="buttonB" onclick="checkAnswer('B')">B</button>
-        <button class="buttonC" onclick="checkAnswer('C')">C</button>
-        <button class="buttonD" onclick="checkAnswer('D')">D</button>
+        <button class="buttonA">A</button>
+        <button class="buttonB">B</button>
+        <button class="buttonC">C</button>
+        <button class="buttonD">D</button>
     <div id="quizAnswersResult"></div>
     </div>
+    <!-- page where the quiz ends, and the user can enter their initials -->
     <div id="quizEndPage">
         <h2>All done!</h2>
         <p>Your final score is <span id="finalScore"></span>.</p>
@@ -37,7 +43,9 @@
             <input type="text" id="initials" name="initials">
             <button id="submitScoreButton">Submit</button>
         </form>
-        <div id="highScorePage">
+    </div>
+    <!-- page where the highscores are displayed -->
+        <div class="highScorePage">
             <h2>Highscores</h2>
             <ol id="highscoresList"></ol>
             <button id="playAgainButton">Play Again!</button>
