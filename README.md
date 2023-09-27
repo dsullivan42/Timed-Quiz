@@ -6,3 +6,8 @@ https://dsullivan42.github.io/Timed-Quiz/?initials=FD
 
 
 ![cap1](https://github.com/dsullivan42/Timed-Quiz/assets/97996876/71829e40-8a71-4c16-9088-41bcade1a313)
+
+
+
+Sources : 
+Discussed code with a friend in the industry, on a couple parts of the code that I was struggling with / had questions on. Mainly the setHighScore function.
